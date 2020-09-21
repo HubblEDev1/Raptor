@@ -15,6 +15,7 @@ import { CreateComponent } from './components/create/create.component';
 import { RecoverpasswordComponent } from './components/recoverpassword/recoverpassword.component';
 import { ClienteComponent } from './components/create/cliente/cliente.component';
 import { MotoenvioComponent } from './components/create/motoenvio/motoenvio.component';
+//import { CallbackComponent } from './components/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MotoenvioComponent } from './components/create/motoenvio/motoenvio.comp
     RecoverpasswordComponent,
     ClienteComponent,
     MotoenvioComponent
+    //CallbackComponent
   ],
   imports: [
     BrowserModule,
