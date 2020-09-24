@@ -13,9 +13,6 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { CreateComponent } from './components/create/create.component';
 import { RecoverpasswordComponent } from './components/recoverpassword/recoverpassword.component';
-import { ClienteComponent } from './components/create/cliente/cliente.component';
-import { MotoenvioComponent } from './components/create/motoenvio/motoenvio.component';
-//import { CallbackComponent } from './components/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +21,9 @@ import { MotoenvioComponent } from './components/create/motoenvio/motoenvio.comp
     HomeComponent,
     LoginComponent,
     CreateComponent,
-    RecoverpasswordComponent,
-    ClienteComponent,
-    MotoenvioComponent
-    //CallbackComponent
+    RecoverpasswordComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,

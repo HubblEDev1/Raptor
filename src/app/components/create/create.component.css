@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 300%;
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+    display: inline-block;
+}
+
+.boton {
+    text-align: center;
+}

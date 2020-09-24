@@ -28,3 +28,12 @@
 .fadeIn {
     animation-name: fadeIn;
 }
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}

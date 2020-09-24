@@ -1,7 +1,15 @@
 <h1 class="animated fadeIn fast"></h1>
-<p class="animated fadeIn">
-    Iniciar Sesión en Raptor como cliente o moto envío
-</p>
+
+<p> RAPTOR <img src="assets/img/Raptor.png" width="100" height="100" aling="left"> </p>
+
+<div class="row">
+    <div class="col">
+        <button (click)="mostrarCliente = !mostrarCliente" type="button" class="boton" class="btn btn-outline-primary btn-block">Cliente</button>
+    </div>
+    <div class="col">
+        <button (click)="mostrarRepartidor = !mostrarRepartidor" type="button" class="boton" class="btn btn-outline-primary btn-block">Moto Envío</button>
+    </div>
+</div>
 
 <div *ngIf="mostrarCliente">
     <form>
@@ -32,7 +40,7 @@
     </form>
 </div>
 
-<div *ngIf="mostrarMoto">
+<div *ngIf="mostrarRepartidor">
     <form>
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Nombre(s)">
@@ -73,13 +81,4 @@
 
     <button type="submit" class="btn btn-primary">Crear cuenta</button>
     <hr>
-</div>
-
-<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group mr-2" role="group" aria-label="Second group">
-        <button (click)="mostrarCliente = !mostrarCliente" type="button" class="btn btn-outline-primary">Cliente</button>
-    </div>
-    <div class="btn-group mr-2" role="group" aria-label="Second group">
-        <button (click)="mostrarMoto = !mostrarMoto" type="button" class="btn btn-outline-primary">Moto Envío</button>
-    </div>
 </div>
